@@ -80,7 +80,7 @@ keymap("n", "<leader>du", "<cmd>lua require'dapui'.toggle()<cr>", opts)
 keymap("n", "<leader>dt", "<cmd>lua require'dap'.terminate()<cr>", opts)
 
 -- Lsp
-keymap("n", "<leader>lf", "<cmd>lua vim.lsp.buf.formatting{ async = true }<cr>", opts)
+keymap("n", "<leader>lf", "<cmd>lua vim.lsp.buf.formatting()<cr>", opts)
 
 -- Misc
 keymap("n", "<leader>q", ":q<CR>", opts)
