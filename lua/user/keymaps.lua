@@ -85,3 +85,6 @@ keymap("n", "<leader>lf", "<cmd>lua vim.lsp.buf.formatting()<cr>", opts)
 -- Misc
 keymap("n", "<leader>q", ":q<CR>", opts)
 keymap("n", "<leader>w", ":w<CR>", opts)
+
+-- Hop
+keymap("n", "<C-f>", ":HopWord<CR>", opts)
