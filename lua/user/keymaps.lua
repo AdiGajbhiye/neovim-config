@@ -40,6 +40,7 @@ keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
 
 -- Better paste
 keymap("v", "p", '"_dP', opts)
+keymap("n", "<S-p>", ':pu<CR>$a', opts)
 
 -- Insert --
 -- Press jk fast to enter
